@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media(max-width: 840px){
+  
+  .hamburger{
+    display: block;
+  }
+  #header .container {
+    position: relative;
+  }
+  .nav-menu{
+    display: none;
+  }
+   .active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    background-color: #0d8278;
+    
+  }
+  .nav-menu li {
+    margin: 20px 0;
+    
+      
+  }
+  .nav-menu li:hover .sub-menu{
+    display: none;
+  }
+  .order-now{
+    width: 100%;
+  }
+  .products-container .product{
+    width: 100%;
+  }
+  #products .products-container{
+    height: auto;
+  }
+  #products{
+    height: auto;
+  }
+
+}
